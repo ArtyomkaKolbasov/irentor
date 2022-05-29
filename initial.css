@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: #00BFFF;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    background: #00BFFF;
+    padding: 5px;
+    margin: 50px;
+    color: #f1f1f1;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.sign {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding: 150px;
+}
